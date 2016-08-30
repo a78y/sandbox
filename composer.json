@@ -1,0 +1,13 @@
+{
+    "name": "h/sandbox",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+        	"H\\": "src/",
+        	"Monolog\\": "vendor/monolog/monolog/src/Monolog/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
